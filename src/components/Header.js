@@ -59,6 +59,7 @@ const Menu = styled.div`
   display: flex;
   flex: 1;
   justify-content: center;
+  padding-left: 110px;
   @media (max-width: 768px){
     display: none;
   }
