@@ -99,7 +99,9 @@ const BurgerNav = styled.div`
   padding: 1.5em 1.5em;
   transform: ${props => props.show ? 'translateX(0)':'translateX(100%)'};
   transition: transform .6s;
-
+  @media (min-width: 920px) {
+    width: 30%;
+  }
 
   li a {
     text-decoration: none;
